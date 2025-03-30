@@ -11,8 +11,9 @@
 		"enabled": true
 	},
 	"vars": {
-		"DATABASE_URL":"prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNjIzYTE0YTQtNGY0Yy00ZWIwLWIxMzctMWI3ODMxNWEzNTE3IiwidGVuYW50X2lkIjoiZjkwMTgzZTQ3MjcwN2E1NjlkYjViOWE0M2QwNmJhOGU1NzcwNWRjNThkNmFmOTdlNDJiNDVkMDg5ZmQzNGFmMSIsImludGVybmFsX3NlY3JldCI6IjUzM2MwYTAyLTRiNTMtNDIwMC04NTJlLTdhNjE5ZjJlMjU0ZiJ9.myso5fY1Ld-P4NES3p738E4s7HVJu_h-GFsqx-MpmkE"
-	}
+  // DATABASE_URL is set as a secret and in .dev.vars for local development
+}
+	
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
